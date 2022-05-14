@@ -9,7 +9,9 @@ class Solution:
             return True
 
         a = s_list[:len(s_list)//2]
-        b = s_list[-(len(s_list)//2):]
-        b = [b[i] for i in range(len(b)-1, -1, -1)]
+        b = s_list[::-1]
+        b = b[:len(s_list)//2]
         
         return a==b
+
+# 55ms
