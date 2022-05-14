@@ -4,7 +4,6 @@ class Solution:
     Input: s = "babad"
     Output: "bab"
     '''
-
     def longestPalindrome(self, s: str) -> str:
         '''
         문자열의 팰린드롬의 길이가 짝수일 경우와 홀수일 경우를 고려하여

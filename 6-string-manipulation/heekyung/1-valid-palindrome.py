@@ -1,6 +1,6 @@
 class Solution:
     '''
-    주어진 문자열이 팰린드롬인지 확인하는 문제.
+    주어진 문자열이 팰린드롬인지 확인하는 문제
     대소문자 구분하지 않으며, 영문자와 숫자많을 대상으로 한다.
 
     Input: s = "A man, a plan, a canal: Panama"
