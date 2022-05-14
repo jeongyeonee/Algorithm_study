@@ -1,6 +1,16 @@
 # Algorithm study
 《파이썬 알고리즘 인터뷰》도서 스터디 
 
+Git test
+
+git clone https://github.com/kohheekyung/Algorithm_study.git
+
+Remote Repository 목록
+git remote -v
+
+Remote Repository를 등록
+git remote add upstream https://github.com/jeongyeonee/Algorithm_study
+
 
 
 ## 문제 풀이
