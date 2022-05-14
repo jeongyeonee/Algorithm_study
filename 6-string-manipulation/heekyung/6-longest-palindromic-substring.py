@@ -1,6 +1,7 @@
 class Solution:
     '''
     가장 긴 팰린트롬 부분을 분자열을 출력
+
     Input: s = "babad"
     Output: "bab"
     '''

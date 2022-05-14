@@ -1,6 +1,7 @@
 # Algorithm study
 《파이썬 알고리즘 인터뷰》도서 스터디 
 
+Git test
 
 git clone https://github.com/kohheekyung/Algorithm_study.git
 

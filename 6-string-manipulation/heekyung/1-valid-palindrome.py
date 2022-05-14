@@ -12,7 +12,6 @@ class Solution:
         리스트로 변환 하기
         리스트 보다 데크를 사용하는 것이 더 빠르다
         '''
-
         strs = []
         for char in s:
             if char.isalnum():
