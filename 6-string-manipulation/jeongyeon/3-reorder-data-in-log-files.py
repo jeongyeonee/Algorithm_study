@@ -13,3 +13,10 @@ class Solution:
         return [' '.join(l) for l in logs_l] + [' '.join(l) for l in logs_d]
       
 # 60 ms
+
+'''
+split -> join으로 불필요한 연산 시행
+
+split하지 않은 문자열을 이용하여
+lambda x: (x.split()[1:], x.split()[0]) 했으면 46 ms
+'''
