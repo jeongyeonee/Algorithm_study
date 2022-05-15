@@ -11,3 +11,8 @@ class Solution:
         return s_list[0][0]
 
 # 57 ms
+
+'''
+Counter 적용한 결과에 most_common() 함수 이용하면
+sorted 하지 않아도 가장 많이 나온 단어 출력할 수 있음.
+'''
