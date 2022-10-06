@@ -23,7 +23,10 @@ def isPalindrome_tolist(head) -> bool:
     return True
 
 '''
-deque로 변환 변환
+deque로 변환
+
+리스트와 비슷하나, 
+오른쪽에서만 값 추출 가능한 리스트와 달리 양쪽에서 값 추출 가능.
 
 Runtime: 974 ms
 Memory: 47.7 MB
