@@ -7,6 +7,8 @@ Memory: 13.8 MB
 def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
     root = head = ListNode()
 
+    # l1, l2 모두 끝날때까지 더해져야 하며
+    # 모두 더해졌어도 십의자리수가 남아있는 경우를 고려하여 while carry
     carry = 0
     while l1 or l2 or carry:
         # 두 자리 합
